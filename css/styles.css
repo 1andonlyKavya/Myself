@@ -1,0 +1,208 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 100%;
+  color: #40514E;
+  font-weight: 500;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  padding-top: 100px;
+  position: relative;
+  line-height: 2;
+}
+
+h1 {
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  /* 16px = 100% = 1em */
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 2.6rem;
+  font-family: 'Montserrat' ,sans-serif;
+  margin-top: 0;
+  padding: 30px;
+}
+
+h3 {
+  font-family: 'Montserrat' ,sans-serif;
+  color: #11999E;
+}
+
+.middle-container {
+  margin: 100px 0 100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  margin: 50px auto 5px auto;
+  padding-bottom: 10px;
+  padding-top: 50px;
+  word-spacing: 25px;
+  line-height: 2;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 20%;
+  top: 80px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 20%;
+}
+
+.profile-pic{
+  border-style: solid;
+  border-color: #11999E;
+  border-radius: 100%;
+  border-width: 2px;
+
+
+}
+
+p{
+  line-height: 2;
+}
+
+span {
+  text-decoration: underline;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat',sans-serif;
+}
+
+.programmer{
+  font-weight: normal;
+}
+
+.skill-row{
+
+  width: 50%;
+  margin: 50px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.code-img{
+  width: 175px;
+  float: left;
+  margin-right: 30px;
+}
+
+.gaming-img{
+  width: 175px;
+  height: 175px;
+
+  float: right;
+  margin-left: 30px;
+}
+.skills{
+  margin: 40px;
+}
+
+hr{
+  background-color: #EAF6F6;
+  border-style: none;
+  border-bottom-style: dotted;
+  border-color: grey;
+  margin: 100px auto;
+  border-width: 10px;
+
+  height: 0;
+  width: 5%;
+
+}
+
+.contact-body{
+
+  margin: 25px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat' ,sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 40px;
+
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  color: #211F1F;
+  background-color: white;
+}
+.copyright{
+  color: white;
+  margin: 30px auto 30px auto;
+  word-spacing: normal;
+
+
+}
+.profile-pic:hover{
+  width: 20%;
+  height: 20%;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+
+}
+
+.contact-message{
+  width: 30%;
+  margin:50px auto;
+}
